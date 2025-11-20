@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Send, Phone, Mail, ArrowRight, MessageSquare } from 'lucide-react';
+import { Send, Phone, Mail, ArrowRight, MessageSquare, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import SEO from '../components/SEO';
 import { motion } from 'framer-motion';
@@ -242,7 +242,7 @@ const Contact = () => {
                     </div>
                   </motion.div>
                   
-                  <motion.div 
+                  <motion.div
                     className="flex items-start space-x-4"
                     whileHover={{ x: 5 }}
                     transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -257,6 +257,34 @@ const Contact = () => {
                       <p className="text-gray-300">
                         contact@threeatoms.com<br />
                         threeatoms.com@gmail.com
+                      </p>
+                    </div>
+                  </motion.div>
+
+                  <motion.div
+                    className="flex items-start space-x-4"
+                    whileHover={{ x: 5 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <div className="flex-shrink-0 mt-1">
+                      <div className="w-12 h-12 rounded-full bg-[#F26E50]/20 flex items-center justify-center">
+                        <MapPin className="h-5 w-5 text-[#F26E50]" />
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-medium mb-1">Visit Us</h3>
+                      <p className="text-gray-300">
+                        <a
+                          href="https://www.google.com/maps/place/Unit.No.+114,+Trinity+Work+Hub+-+Best+Coworking+Space,+Plug%26Play+Office,+Managed,+Virtual,+Furnished,+Shared+Space+in+Kukatpally,+Hyderabad,+Manjeera+Trinity+Corporate,+JAWAHARLAL+NEHRU+TECHNOLOGICAL+UNIVERSITY,+Hitech+Road,+beside+LuLu+Mall,+Kukatpally+Housing+Board+Colony,+Kukatpally,+Hyderabad,+Telangana+500072/data=!4m2!3m1!1s0xa32cbea0334783f9:0x886a440a0d04da85!17m2!4m1!1e3!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI1LjQ2LjIYACCenQoqxgEsOTQyNTk1NTEsOTQyNjc3MjcsOTQyNzU0MDMsOTQyOTIxOTUsOTQyOTk1MzIsOTQyODQ0OTMsOTQyMjMyOTksOTQyMTY0MTMsOTQyODA1NzYsOTQyMTI0OTYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTc1MjMsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksOTQyOTIwNzgsOTQyOTU1MDQsNDcwODQzOTMsOTQyMTMyMDBCAklO&skid=893d10d4-4768-4aef-83c9-b2e3cbc32504"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-gray-300 hover:text-[#F26E50] transition-colors"
+                        >
+                          Unit.No. 114, 1st Floor, Manjeera Trinity Corporate,<br />
+                          JNTU - Hitech Road, beside LuLu Mall,<br />
+                          KPHB, Phase - 3, Kukatpally,<br />
+                          Hyderabad, Telangana 500072
+                        </a>
                       </p>
                     </div>
                   </motion.div>
