@@ -1,0 +1,13 @@
+# robots.txt for ThreeAtoms
+# This file tells search engine crawlers which pages they can and cannot access
+
+# Allow all crawlers to access all content
+User-agent: *
+Allow: /
+
+# Disallow crawling of source maps and development files
+Disallow: /*.map$
+Disallow: /node_modules/
+
+# Sitemap location
+Sitemap: https://threeatoms.com/sitemap.xml

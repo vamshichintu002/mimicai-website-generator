@@ -29,3 +29,6 @@ dist-ssr
 .env.production
 
 .vercel
+
+# Claude skills installed from npm
+.claude/skills
