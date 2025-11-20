@@ -209,7 +209,7 @@ const Contact = () => {
                     <div>
                       <h3 className="text-lg font-medium mb-1">Call Us</h3>
                       <p className="text-gray-300">
-                        +91 7396149081<br />
+                        +91 76739 17050<br />
                         Monday-Friday, 9am-6pm ET
                       </p>
                     </div>
@@ -229,13 +229,13 @@ const Contact = () => {
                       <h3 className="text-lg font-medium mb-1">WhatsApp</h3>
                       <p className="text-gray-300">
                         Message us on WhatsApp<br />
-                        <a 
-                          href="https://wa.me/917396149081" 
-                          target="_blank" 
+                        <a
+                          href="https://wa.me/917673917050"
+                          target="_blank"
                           rel="noopener noreferrer"
                           className="text-[#F26E50] hover:underline inline-flex items-center gap-1 transition-all"
                         >
-                          +91 7396149081
+                          +91 76739 17050
                           <ArrowRight className="h-3 w-3" />
                         </a>
                       </p>
